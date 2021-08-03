@@ -170,7 +170,7 @@ ny <- data.frame(ny, Hour)
 NY_Time <- function(data){
     time = 1
     each_time = NULL
-    for (num in 1:24){
+    for num in range(1:24){
         each_time[time] = length(which(hour(data$Start.Time) == time))
         time = time + 1
     }
@@ -192,7 +192,7 @@ wash <- data.frame(wash, Hour)
 W_Time <- function(data){
     time = 1
     each_time = NULL
-    for (num in 1:24){
+    for num in range(1:24){
         each_time[time] = length(which(hour(as.POSIXct(wash$Start.Time, format="%Y-%m-%d %H")) == time))
         time = time + 1
     }
