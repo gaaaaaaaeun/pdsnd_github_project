@@ -6,7 +6,7 @@ head(ny)
 head(wash)
 head(chi)
 
-# install.packages("lubridate")
+# install.packages("package")
 library(lubridate)
 library(MASS)
 library(ggplot2)
