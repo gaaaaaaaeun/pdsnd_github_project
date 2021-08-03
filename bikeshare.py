@@ -17,7 +17,6 @@ library(grid)
 
 #1 Popular times of travel (i.e., occurs most often in the start time)
 #1-1 What is the most common month?
-
 # NEW YORK
 #1)
 month = 1
@@ -104,7 +103,6 @@ length(which(format(as.Date(chi$Start.Time), "%m") == '09'))
 length(which(format(as.Date(chi$Start.Time), "%m") == '10'))
 length(which(format(as.Date(chi$Start.Time), "%m") == '11'))
 length(which(format(as.Date(chi$Start.Time), "%m") == '12'))
-
 # June is the most common month in Chicago.
 
 #visualize
