@@ -21,7 +21,7 @@ library(grid)
 # NEW YORK
 #1)
 month = 1
-for (num in 1:12){
+for num in range(1:12){
     print(length(which(month(ny$Start.Time) == month)))
     month = month + 1
 }
