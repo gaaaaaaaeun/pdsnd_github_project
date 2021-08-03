@@ -17,7 +17,6 @@ library(grid)
 
 #1 Popular times of travel (i.e., occurs most often in the start time)
 #1-1 What is the most common month?
-
 # NEW YORK
 #1)
 month = 1
