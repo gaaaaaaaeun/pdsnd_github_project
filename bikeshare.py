@@ -87,7 +87,7 @@ hist(month(as.POSIXct(wash$Start.Time, format="%Y-%m-%d")),
 # CHICAGO
 #1)
 month = 1
-for (num in 1:12){
+for num in range(1:12){
     print(length(which(month(chi$Start.Time) == month)))
     month = month + 1
 }
