@@ -1,2 +1,13 @@
+<<<<<<< HEAD
 .github/**
+||||||| 8e14d16
+# ignore .github folder
+.github/**
+
+# ignore .csv file
+=======
+# ignore data
+
+.github/**
+>>>>>>> documentation
 *.csv

@@ -15,7 +15,6 @@ library(plyr)
 library(tidyverse)
 library(grid)
 
-
 #1 Popular times of travel (i.e., occurs most often in the start time)
 #1-1 What is the most common month?
 
@@ -26,7 +25,6 @@ for num in range(1:12){
     print(length(which(month(ny$Start.Time) == month)))
     month = month + 1
 }
-
 #2)
 length(which(format(as.Date(ny$Start.Time), "%m") == '01'))
 length(which(format(as.Date(ny$Start.Time), "%m") == '02'))
