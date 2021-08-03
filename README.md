@@ -7,7 +7,7 @@
 Post Bikeshare data on GitHub
 
 ### Description
-In Project2, I answered several questions about the available bikeshare data from Washington, Chicago, and New York.
+I answered several questions about the available bikeshare data from Washington, Chicago, and New York in Project2.
 
 ### Files used
 new_york_city.csv
@@ -16,4 +16,3 @@ chicago.csv
 
 ### Credits
 https://classroom.udacity.com/nanodegrees/nd118/parts/b6a20e57-d477-45c8-9deb-5b87abe46bb3
-
