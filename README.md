@@ -2,16 +2,18 @@
 
 ### Date created
 Include the date you created this project and README file.
+-> 2021-08-03
 
 ### Project Title
-Replace the Project Title.
+Post Bikeshare data on GitHub
 
 ### Description
-Describe what your project is about and what it does.
+In Project2, I answered several questions about the available bikeshare data from Washington, Chicago, and New York.
 
 ### Files used
-Include the files used.
+new_york_city.csv
+washington.csv
+chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://classroom.udacity.com/nanodegrees/nd118/parts/b6a20e57-d477-45c8-9deb-5b87abe46bb3
