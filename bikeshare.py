@@ -104,7 +104,6 @@ length(which(format(as.Date(chi$Start.Time), "%m") == '09'))
 length(which(format(as.Date(chi$Start.Time), "%m") == '10'))
 length(which(format(as.Date(chi$Start.Time), "%m") == '11'))
 length(which(format(as.Date(chi$Start.Time), "%m") == '12'))
-
 # June is the most common month in Chicago.
 
 #visualize
