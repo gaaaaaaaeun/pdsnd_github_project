@@ -6,6 +6,7 @@ head(ny)
 head(wash)
 head(chi)
 
+# install.packages("packagename")
 library(lubridate)
 library(MASS)
 library(ggplot2)
@@ -21,7 +22,7 @@ library(grid)
 # NEW YORK
 #1)
 month = 1
-for (num in 1:12){
+for num in range(1:12){
     print(length(which(month(ny$Start.Time) == month)))
     month = month + 1
 }
@@ -52,7 +53,7 @@ hist(month(ny$Start.Time), breaks=18, col="grey", border="white",
 #WASHINGTON
 #1)
 month = 1
-for (num in 1:12){
+for num in range(1:12){
     print(length(which(month(as.POSIXct(wash$Start.Time, format="%Y-%m-%d")) == month)))
     month = month + 1
 }
