@@ -1,5 +1,3 @@
-# ignore .github folder
+# ignore data
 .github/**
-
-# ignore .csv file
 *.csv
